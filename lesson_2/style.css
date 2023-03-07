@@ -1,0 +1,32 @@
+table {
+    border: 1px solid;
+    width: 100%;
+}
+
+th {
+    background-color: #e3e3fd;
+    font-weight: normal;
+
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+}
+
+.main-tags {
+    font-weight: bold;
+    color: brown;
+}
+
+.tags {
+    color: brown;
+}
+
+.th-color {
+    color: brown;
+}
+
+.title {
+    font-weight: bold;
+}
