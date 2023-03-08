@@ -2,6 +2,7 @@ table {
     border: 1px solid;
     width: 90%;
     border-color: black;
+    margin: auto;
 }
 
 th {
@@ -9,7 +10,8 @@ th {
     font-weight: normal;
     border: 1px solid;
     border-color: black;
-    color: brown;
+    color: #800000;
+    /*font-family: ; - сорри, шрифт такой же не нашёл  */
 }
 
 td {
@@ -19,14 +21,26 @@ td {
 
 .main-tags {
     font-weight: bold;
-    color: brown;
+    color: #800000;
 }
 
 .tags {
-    color: brown;
+    color: #800000;
 }
 
 .title {
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.td1 {
+    width: 35%;
+}
+
+.td2 {
+    width: 55%;
+}
+
+.td3 {
+    width: 10%;
 }
