@@ -1,0 +1,46 @@
+table {
+    border: 1px solid;
+    width: 50%;
+    border-color: black;
+    margin: auto;
+}
+
+th {
+    background-color: #e3e3fd;
+    font-weight: normal;
+    border: 1px solid;
+    border-color: black;
+    color: #800000;
+    /*font-family: ; - сорри, шрифт такой же не нашёл  */
+}
+
+td {
+    border: 1px solid;
+    border-color: black;
+}
+
+.main-tags {
+    font-weight: bold;
+    color: #800000;
+}
+
+.tags {
+    color: #800000;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.td1 {
+    width: 35%;
+}
+
+.td2 {
+    width: 55%;
+}
+
+.td3 {
+    width: 10%;
+}
