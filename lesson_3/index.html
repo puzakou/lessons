@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lesson-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <h3>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color:red">*</span></h3>
+    <form action="form.php" name="zoo-form" autocomplete="on">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <br>
+            <label>
+                <span>Имя</span>
+                <span style="color: red" class="space">*</span>
+                <input type="text" name="firstname" required size="30">
+            </label>
+            <br>
+            <br>
+            <label>
+                <span class="space1">Телефон</span>
+                <input type="tel" name="telephone" size="30">
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>Email</span>
+                <span style="color: red" class="space2">*</span>
+                <input type="email" name="email" required size="30">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <br>
+            <label>
+                <span>Возраст</span>
+                <span style="color: red" class="space3">*</span>
+                <input class="number" type="number" name="age" required min="0">
+            </label>
+            <br>
+            <br>
+            <label>
+                <span class="space4 name=" sex">Пол</span>
+                <select>
+                    <option value="woman">Женщина</option>
+                    <option value="man">Мужчина</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                <span class="space5">Перечислите личные качества</span>
+                <textarea rows="6" cols="30" name="text"></textarea>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <br>
+            <label class="">
+                <input type="checkbox" name="animals">
+                Зебра
+            </label>
+            <label class="gap2">
+                <input type="checkbox" name="animals">
+                Кошак
+            </label>
+            <label class="gap3">
+                <input type="checkbox" name="animals">
+                Анаконда
+            </label>
+            <label>
+                <input type="checkbox" name="animals">
+                Человек
+            </label>
+            <br>
+            <br>
+            <label class="gap4">
+                <input type="checkbox" name="animals">
+                Слон
+            </label>
+            <label class="gap5">
+                <input type="checkbox" name="animals">
+                Антилопа
+            </label>
+            <label class="gap6">
+                <input type="checkbox" name="animals">
+                Голубь
+            </label>
+            <label>
+                <input type="checkbox" name="animals">
+                Краб
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Отправить информацию">
+    </form>
+</body>
+
+</html>
