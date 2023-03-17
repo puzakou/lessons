@@ -1,0 +1,49 @@
+h1 {
+    position: absolute;
+    height: 51px;
+    left: 0%;
+    right: 52.83%;
+    top: calc(50% - 51px/2 - 9.86px);
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.all-posts {
+    position: absolute;
+    width: 110px;
+    height: 27px;
+    left: calc(50% - 110px/2);
+    top: calc(50% - 27px/2);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #0070A0;
+}
+
+.main {
+    position: absolute;
+    height: 587px;
+    width: 1230px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border-radius: 0px;
+}
+
+span {
+    display: block;
+}
+
+.smarter {
+    width: 553px;
+    height: 51px;
+}
