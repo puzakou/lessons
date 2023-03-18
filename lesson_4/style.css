@@ -107,7 +107,7 @@ body {
     align-items: center;
 }
 
-.blue-text-1 {
+.href-1 {
     position: absolute;
     height: 22px;
     left: 6%;
@@ -117,7 +117,7 @@ body {
     width: 85px;
 }
 
-.blue-text-2 {
+.href-2 {
     position: absolute;
     height: 22px;
     left: 6%;
@@ -127,7 +127,7 @@ body {
     width: 90px;
 }
 
-.blue-text-3 {
+.href-3 {
     position: absolute;
     height: 22px;
     left: 6%;
@@ -137,7 +137,7 @@ body {
     width: 60px;
 }
 
-.blue-text-text-1 {
+.href-text-1 {
     position: absolute;
     width: 88px;
     height: 16px;
@@ -147,7 +147,7 @@ body {
     left: 10%;
 }
 
-.blue-text-text-2 {
+.href-text-2 {
     position: absolute;
     width: 88px;
     height: 16px;
@@ -157,7 +157,7 @@ body {
     left: 15%;
 }
 
-.blue-text-text-3 {
+.href-text-3 {
     position: absolute;
     width: 88px;
     height: 16px;
@@ -167,7 +167,7 @@ body {
     left: 28%;
 }
 
-.content-content {
+.block-content {
     position: absolute;
     height: 249px;
     top: 237.98px;
