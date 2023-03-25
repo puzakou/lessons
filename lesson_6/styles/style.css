@@ -81,5 +81,16 @@ button {
 }
 
 li {
-    list-style-image: url("check-mark.svg");
+    list-style-type: none;
+}
+
+li:before {
+    color: #408858;
+    ;
+    content: "✓";
+    padding-right: 10px;
+}
+
+.list {
+    margin-left: -40px;
 }
