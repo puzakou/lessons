@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 20px;
+}
+
+.main {
+    width: 1280px;
+    height: 668px;
+    background-color: #F2F8F6;
+    margin: 0 auto;
+}
+
+.white {
+    width: 440px;
+    height: 440px;
+    top: 68px;
+    left: 160px;
+    position: relative;
+}
+
+.green {
+    position: absolute;
+    z-index: 2;
+    width: 440px;
+    height: 440px;
+    left: 194px;
+    top: 115px;
+
+}
+
+.pot {
+    position: absolute;
+    width: 223px;
+    height: 576px;
+    top: 30px;
+    left: 305px;
+    z-index: 3;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 500;
+}
+
+.pictures {
+    position: absolute;
+}
+
+.text {
+    position: relative;
+    left: 680px;
+    top: 105px;
+}
+
+.text-text {
+    width: 550px;
+    height: 230px;
+    top: 23px;
+}
+
+button {
+    background-color: #408858;
+    color: white;
+    width: 211px;
+    height: 58px;
+    font-weight: 500;
+    margin-top: 42px;
+    border: none;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+li {
+    list-style-image: url("check-mark.svg");
+}
