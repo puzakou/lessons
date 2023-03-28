@@ -27,12 +27,12 @@ body {
     font-size: 40px;
 }
 
-.text2 {
+h1 {
     color: #E31E24;
     font-size: 40px;
 }
 
-.header-text {
+.h1-text {
     text-align: center;
     font-size: 26px;
 }
@@ -44,14 +44,12 @@ h1 {
 img {
     width: 80px;
     height: 80px;
-    margin-left: 155px;
-    margin-top: 50px;
+    margin: 50px 0px 0px 155px;
 }
 
 .content-header {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin: 20px 0px 0px 0px;
     color: #2753A2;
     font-size: 26px;
 }
@@ -69,6 +67,10 @@ img {
 
 .em2 {
     font-size: 20em;
+}
+
+.content-em {
+    font-size: 1px;
 }
 
 .rem {
