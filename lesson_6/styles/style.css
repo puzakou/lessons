@@ -73,6 +73,7 @@ button {
     font-weight: 500;
     margin-top: 42px;
     border: none;
+    text-transform: uppercase;
 }
 
 .header {
@@ -86,7 +87,6 @@ li {
 
 li:before {
     color: #408858;
-    ;
     content: "✓";
     padding-right: 10px;
 }
