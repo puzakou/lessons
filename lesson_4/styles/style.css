@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+.main {
+    width: 1230px;
+    height: 587px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.head {
+    height: 68px;
+    width: 1130px;
+}
+
+.head-header {
+    display: inline-block;
+    margin-top: 79px;
+    margin-left: 50px;
+    font-family: fraunces;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.href {
+    display: inline-block;
+    margin-left: 455px;
+    color: #0070A0;
+    font-size: 17px;
+}
+
+.content {
+    width: 1130px;
+    height: 490px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-card {
+    display: inline-block;
+    width: 355px;
+    height: 487px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+img {
+    width: 355px;
+    height: 238px;
+}
+
+.blue {
+    background-color: lightblue;
+    height: 22px;
+    width: 122px;
+    margin-top: 25px;
+}
+
+.card-header {
+    margin-top: 12px;
+    font-family: fraunces;
+    font-weight: 400;
+}
+
+.card-text {
+    margin-top: 12px;
+}
+
+.card-href {
+    color: #2C90C9;
+    display: inline-block;
+    background-color: #E6F7FF;
+}
