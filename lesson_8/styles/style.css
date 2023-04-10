@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    line-height: 140%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    height: auto;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 773px;
+    margin-left: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0 0 0 12px;
+}
+
+.order {
+    width: 262px;
+    height: 58px;
+    background: #408858;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+}
+
+.input {
+    width: 605px;
+    height: 48px;
+    box-shadow: 0px 0px 10px rgba(38, 41, 46, 0.25);
+    border: none;
+    color: #C4C4C4;
+    margin: 10px 0px 15px 0px;
+    font-size: 16px;
+}
+
+.input-order {
+    width: 605px;
+    height: 145px;
+    box-shadow: 0px 0px 10px rgba(38, 41, 46, 0.25);
+    border: none;
+    margin: 10px 0px 15px 0px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+}
+
+.text {
+    margin: 10px 0px 0px 10px;
+    font-size: 20px;
+}
