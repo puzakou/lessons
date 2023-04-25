@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+a:visited {
+    color: #CBCBCB;
+}
+
+body {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px white solid;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 75%;
+    flex-wrap: wrap;
+    z-index: 5;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    padding-inline-start: 0;
+}
+
+.man {
+    height: 50px;
+}
+
+.conect {
+    width: 240px;
+    background-color: #1E1E1E;
+    border: 1px solid #FFFFFF;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+main {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Candal', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+}
+
+.orange {
+    color: #FF4C24;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    width: 679px;
+    color: #CBCBCB;
+}
+
+.content__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.whitelist {
+    background: rgba(255, 76, 36, 0.15);
+    border: 1px solid #FF4C24;
+    backdrop-filter: blur(10px);
+    width: 420px;
+    height: 60px;
+    font-family: 'Candal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FF4C24;
+    ;
+}
+
+.mint {
+    width: 200px;
+    height: 60px;
+    background: #59FFB7;
+    color: black;
+    font-family: 'Candal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    top: auto;
+    bottom: 0;
+    z-index: 0;
+}
+
+.fog {
+    position: absolute;
+    width: 100vw;
+    top: auto;
+    bottom: 0;
+    z-index: 0;
+    transform: ;
+}
+
+@media screen and (max-width:1430px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .conect {
+        display: none;
+    }
+}
