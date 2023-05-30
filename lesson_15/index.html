@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>lesson_14</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="myForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone">
+            <label class="checkbox-label">
+                <input type="checkbox" id="agreement" name="agreement">
+                <span>Я согласен с условиями</span>
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>Ошибка валидации</h3>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
